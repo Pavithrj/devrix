@@ -10,6 +10,20 @@ function App() {
     return (
         <>
             <Navbar />
+
+            <div className="px-6 pt-10 mx-auto max-w-7xl">
+                <Hero />
+
+                <Feature />
+
+                <Workflow />
+
+                <Pricing />
+
+                <Testimonials />
+
+                <Footer />
+            </div>
         </>
     )
 };
