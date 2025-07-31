@@ -1,7 +1,7 @@
+import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { navItems } from '../constants';
 import DevRixLogo from './../assets/devRixLogo.png';
-import { useState } from 'react';
 
 const Navbar = () => {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
