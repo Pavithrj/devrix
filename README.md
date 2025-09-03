@@ -1,14 +1,15 @@
 # 🗂️ Table of Contents
 
-- [💬 Chatwise](#-chatwise)
-- [🌍 Live Demo](#-live-demo)
-- [✨ Features](#-features)
-- [📸 Screenshots](#-screenshots)
-- [⚙️ Tech Stack](#️-tech-stack)
-- [📂 Folder Structure](#-folder-structure)
-- [🧰 Installation Steps](#-installation-steps)
+- [🗂️ Table of Contents](#️-table-of-contents)
+  - [💬 Devrix](#-devrix)
+  - [🌍 Live Demo](#-live-demo)
+  - [✨ Features](#-features)
+  - [📸 Screenshots](#-screenshots)
+  - [⚙️ Tech Stack](#️-tech-stack)
+  - [📂 Folder Structure](#-folder-structure)
+  - [🧰 Installation Steps](#-installation-steps)
 
-## 💬 Chatwise
+## 💬 Devrix
 
 A **modern, sleek, and fully responsive chat interface UI** built using **ReactJS** and **TailwindCSS**. It offers a clean, animated, and intuitive interface for chat-based applications.
 
@@ -16,18 +17,15 @@ A **modern, sleek, and fully responsive chat interface UI** built using **ReactJ
 
 ## 🌍 Live Demo
 
-Explore the interface: [Live Demo](https://pavithrj.github.io/chatwise)
+Explore the interface: [Live Demo](https://pavithrj.github.io/devrix)
 
 ---
 
 ## ✨ Features
 
 * 📱 **Responsive Design** – Adapts smoothly to all screen sizes
-* 💬 **Conversation Layout** – Structured user and message bubbles
 * 🎨 **Modern UI** – Aesthetic color palette and minimalistic design
-* 🧑‍🤝‍🧑 **User Avatars & Timestamps** – UI elements that mimic real-world chat apps
 * 🧪 **Reusable Components** – Modular React components for clean structure
-* 🌙 **Dark Mode (optional)** – Toggle between light and dark themes (if implemented)
 
 ---
 
@@ -55,24 +53,36 @@ Explore the interface: [Live Demo](https://pavithrj.github.io/chatwise)
 ## 📂 Folder Structure
 
 ```
-Chatwise/
+Devrix/
 ├── src/
 │   ├── assets/
-│   │   └── demo/
-│   │       ├── chat-ui.png
-│   │       └── mobile-chat-ui.png
+│   │   └── profile-pictures/
+│   │       ├── user1.png
+│   │       ├── user2.png
+│   │       ├── user3.png
+│   │       ├── user4.png
+│   │       ├── user5.png
+│   │       └── user6.png
 │   ├── components/
-│   │   ├── ChatWindow.jsx
-│   │   ├── MessageBubble.jsx
-│   │   ├── Sidebar.jsx
-│   │   └── Header.jsx
+│   │   ├── Feature.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Pricing.jsx
+│   │   ├── Testimonials.jsx
+│   │   └── Workflow.jsx
+│   ├── constants/
+│   │   └── index.jsx
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
 ├── .gitignore
+├── eslint.config.js
 ├── index.html
+├── package-lock.json
 ├── package.json
 ├── postcss.config.js
+├── README.md
 ├── tailwind.config.js
 └── vite.config.js
 ```
@@ -82,8 +92,8 @@ Chatwise/
 ## 🧰 Installation Steps
 
 ```bash
-git clone https://github.com/Pavithrj/chatwise.git
-cd chatwise
+git clone https://github.com/Pavithrj/devrix.git
+cd devrix
 npm install
 npm run dev
 ```
