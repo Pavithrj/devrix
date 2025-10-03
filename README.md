@@ -31,7 +31,7 @@ Explore the interface: [Live Demo](https://pavithrj.github.io/devrix)
 
 ## 📸 Screenshots
 
-💬 Chat Interface
+💻 Desktop View
 
 ![Chat UI](./src/assets/demo/desktop_view.png)
 
@@ -63,6 +63,8 @@ Devrix/
 │   │   │   ├── user4.png
 │   │   │   ├── user5.png
 │   │   │   └── user6.png
+│   │   ├── Feature.jsx
+│   │   └── Workflow.jsx
 │   ├── components/
 │   │   ├── Feature.jsx
 │   │   ├── Footer.jsx
