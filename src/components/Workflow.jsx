@@ -1,6 +1,6 @@
 import { CheckCircle2 } from "lucide-react";
-import codeImage from "./../assets/code.jpg";
 import { checklistItems } from "../constants";
+import codeImage from "./../assets/workflow/code.jpg";
 
 const Workflow = () => {
     return (
