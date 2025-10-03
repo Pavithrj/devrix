@@ -56,6 +56,22 @@ Explore the interface: [Live Demo](https://pavithrj.github.io/devrix)
 Devrix/
 ├── src/
 │   ├── assets/
+│   │   ├── demo/
+│   │   │   ├── desktop_view.png
+│   │   │   └── mobile_view.png
+│   │   ├── hero/
+│   │   │   ├── video1.mp4
+│   │   │   └── video2.mp4
+│   │   ├── profile-pictures/
+│   │   │   ├── user1.png
+│   │   │   ├── user1.png
+│   │   │   ├── user2.png
+│   │   │   ├── user3.png
+│   │   │   ├── user4.png
+│   │   │   ├── user5.png
+│   │   │   └── user6.png
+│   │   ├── workflow/
+│   │   │   └── code.jpg
 │   │   └── profile-pictures/
 │   │   │   ├── user1.png
 │   │   │   ├── user2.png
@@ -63,8 +79,6 @@ Devrix/
 │   │   │   ├── user4.png
 │   │   │   ├── user5.png
 │   │   │   └── user6.png
-│   │   ├── Feature.jsx
-│   │   └── Workflow.jsx
 │   ├── components/
 │   │   ├── Feature.jsx
 │   │   ├── Footer.jsx
